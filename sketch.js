@@ -5,7 +5,7 @@ let bg
 function setup() {
   createCanvas(windowWidth, windowHeight);
   bg = loadImage('mask.png')
-  let shapeA = new Shape(1000, 350, 10, color(0, 0, 0));
+  let shapeA = new Shape(windowWidth/2, windowHeight/2, 10, color(0, 0, 0));
   shapes.push(shapeA);
   }
 
