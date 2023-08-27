@@ -24,9 +24,9 @@ function mouseClicked() {
 
   for (let i = shapes.length - 1; i >= 0; i--) {
   if (shapes[i].contains(mouseX, mouseY)) {
-  let shapeB = new Shape(random(900,1880), random(540,1150), 10, color(0, 0, 0)); 
-  let shapeC = new Shape(random(900,1880), random(540,1150), 10, color(0, 0, 0)); 
-  let shapeD = new Shape(random(900,1880), random(540,1150), 10, color(0, 0, 0));
+  let shapeB = new Shape(random(850,1880), random(540,1150), 10, color(0, 0, 0)); 
+  let shapeC = new Shape(random(850,1880), random(540,1150), 10, color(0, 0, 0)); 
+  let shapeD = new Shape(random(850,1880), random(540,1150), 10, color(0, 0, 0));
   stroke(1);
   line(shapeB.x, shapeB.y, shapeD.x, shapeD.y);
   line(shapeC.x, shapeC.y, shapeD.x, shapeD.y);
